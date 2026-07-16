@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enbarasu E | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+width:100%;
+height:100vh;
+display:flex;
+justify-content:left;
+margin-left:20px;
+align-items:center;
+text-align:left;
+background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin-top:20px;
+font-size:20px;
+color:#d1d5db;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+transform:translateY(-4px);
+}
+
+nav{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#020617;
+padding:15px;
+display:flex;
+justify-content:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 18px;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+section{
+padding:90px 10%;
+}
+
+.title{
+font-size:35px;
+margin-bottom:35px;
+color:#38bdf8;
+text-align:center;
+}
+
+.about{
+display:grid;
+grid-template-columns:300px auto;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:250px;
+height:250px;
+border-radius:50%;
+border:6px solid #38bdf8;
+object-fit:cover;
+}
+
+.about p{
+font-size:18px;
+line-height:1.8;
+color:#d1d5db;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.skill:hover{
+transform:translateY(-10px);
+background:#334155;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.project{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.project:hover{
+transform:translateY(-10px);
+}
+
+.project h3{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.timeline{
+border-left:4px solid #38bdf8;
+padding-left:25px;
+}
+
+.timeline div{
+margin-bottom:35px;
+}
+
+.timeline h3{
+color:#38bdf8;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:12px;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+color:#94a3b8;
+}
+
+.social{
+margin-top:20px;
+}
+
+.social a{
+color:white;
+font-size:22px;
+margin:15px;
+text-decoration:none;
+}
+
+.social a:hover{
+color:#38bdf8;
+}
+
+@media(max-width:800px){
+
+.about{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.about img{
+margin:auto;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+nav{
+flex-wrap:wrap;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#education">Education</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<header>
+
+<div class="hero">
+<h1>Hello, I'm <span>Enbarasu E</span></h1>
+
+<p>Electronics & Communication Engineering Student</p>
+
+<p>ASPIRING ELECTRONICS ENGINEER | FULL STACK DEVELOPER | FUTURE SOFTWARE ENGINEER</p>
+
+<a href="ENBARASU resume.pdf" class="btn" download>Download Resume</a>
+</div>
+
+</header>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<img src="ebi.png" alt="Profile">
+
+<div>
+
+<p>
+
+Motivated ECE student with knowledge of Embedded C programming, embedded systems, and 
+web development using HTML. Skilled in coding, problem-solving, and developing basic web 
+applications. Currently pursuing Java Full Stack Development to strengthen software 
+engineering expertise. Eager to apply technical knowledge and grow in embedded systems and 
+software development roles. 
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">
+<h3>C,C++ Programmer</h3>
+</div>
+
+<div class="skill">
+<h3>Java</h3>
+</div>
+
+<div class="skill">
+<h3>HTML</h3>
+</div>
+
+<div class="skill">
+<h3>CSS</h3>
+</div>
+
+<div class="skill">
+<h3>JavaScript</h3>
+</div>
+
+<div class="skill">
+<h3>MYSQL</h3>
+</div>
+
+<div class="skill">
+<h3>MS Excel</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="title">Education</h2>
+
+<div class="timeline">
+
+<div>
+
+<h3>B.E Electronics and Communication Engineering</h3>
+
+<p>Peri Institute of Technology</p>
+
+<p>CGPA: 7.79</p>
+
+<p>2023 - 2027</p>
+
+</div>
+
+<div>
+
+<h3>Higher Secondary Education</h3>
+
+<p>Narayana Olympiad School, Mogappair</p>
+
+<p>Percentage : 80% </p>
+
+<p>2022 - 2023</p>
+
+</div>
+
+<div>
+
+<h3>Secondary School Education</h3>
+
+<p>Narayana Olympiad School, Maduravoyal</p>
+
+<p>Percentage : 85.8% </p>
+
+<p>2020 - 2021</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<h3>DEVELOPED 2 WEBSITE FOR COLLEGE EVENTS BY USING HTML & CSS.</h3>
+
+<p>
+
+Coded a program by the html and developed a website for an event name  
+“ SPACETRONICS and INTERNATIONAL CONFERENCE ”. 
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>AUTOMATED METALLIC WASTE SEGREGATION USING PLC</h3>
+
+<p>
+
+Developed a PLC-based automated system for detecting and segregating metallic waste.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Portfolio Website</h3>
+
+<p>
+
+Designed and developed a fully responsive personal portfolio using HTML, CSS.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Certifications</h2>
+
+<div class="timeline">
+
+<div>
+
+<h3>HDCA Certification</h3>
+
+<p>Computer Applications</p>
+
+</div>
+<div>
+
+<h3>WORKSHOP</h3>
+
+<p>PCB Fabrication</p>
+
+</div>
+
+<div>
+
+<h3>Java Full Stack Development</h3>
+
+<p>Currently Pursuing</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="contact">
+
+<p>📧 enbarasu2006@gmail.com</p>
+
+<p>📱 +91 8428297012</p>
+
+<p>📍 Chennai, Tamil Nadu</p>
+
+<div class="social">
+
+<a href="https://linkedin.com/in/enbarasu-e-763a2628a ">LinkedIn</a>
+
+<a href="https://github.com/enbarasu2905">GitHub</a>
+
+<a href="https://www.instagram.com/_.crxzee_boii._?igsh=MTRoMjc0bjNucHd2Ng==">Instagram</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Enbarasu E | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
